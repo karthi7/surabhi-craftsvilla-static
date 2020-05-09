@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
 
     if( ! action ) {
       this_form.find('.loading').slideUp();
-      this_form.find('.error-message').slideDown().html('The form action property is not set!');
+      this_form.find('.error-message').slideDown().html('Sorry! Something went wrong. Please contact us via mobile.');
       return false;
     }
     
