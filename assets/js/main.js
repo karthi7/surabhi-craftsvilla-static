@@ -194,6 +194,17 @@
     items: 1
   });
 
+  // Products carousel (uses the Owl Carousel library)
+  $(".featured-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items:4,
+    lazyLoad: true,
+    autoplayTimeout: 3000,
+    margin: 10
+  });
+
   // Initiate venobox lightbox
   $(document).ready(function() {
     $('.venobox').venobox();
